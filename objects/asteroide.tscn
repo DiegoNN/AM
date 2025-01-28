@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://lv32x7bbbles"]
+
+[ext_resource type="PackedScene" uid="uid://c0vk70cn335n" path="res://asteroide.glb" id="1_y3371"]
+[ext_resource type="Script" path="res://objects/asteroide.gd" id="2_xbg85"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_ejipp"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_tdhmu"]
+radius = 0.390248
+
+[node name="asteroide" instance=ExtResource("1_y3371")]
+script = ExtResource("2_xbg85")
+
+[node name="Area3D" type="Area3D" parent="." index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" index="0"]
+shape = SubResource("SphereShape3D_ejipp")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1"]
+shape = SubResource("SphereShape3D_tdhmu")

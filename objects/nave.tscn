@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://eu0nhdkw6wkb"]
+
+[ext_resource type="PackedScene" uid="uid://b42yqan74j84r" path="res://nave.glb" id="1_ctgx4"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_fw4m8"]
+radius = 0.2
+height = 1.0
+
+[node name="nave" instance=ExtResource("1_ctgx4")]
+
+[node name="geometry_0" parent="world" index="0"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_fw4m8")
