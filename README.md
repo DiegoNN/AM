@@ -4,6 +4,8 @@
 
 **AstroDrift: Cosmic Instability** é um jogo de exploração espacial e coleta de recursos em um cinturão de asteroides perigoso. Como piloto de uma nave espacial, você deve coletar recursos valiosos, gerenciar sua nave e sobreviver aos períodos de instabilidade cósmica que transformam o ambiente em uma zona de perigo constante. Inspirado em jogos como **DREDGE** e **No Man's Sky**, o jogo combina atmosfera tensa, mecânicas de survival e uma narrativa misteriosa.
 
+Desenvolvido com **Godot 4.3**, o jogo aproveita os recursos avançados da engine, como gráficos 3D de alta qualidade, física realista e uma pipeline de desenvolvimento eficiente.
+
 ---
 
 ## 🚀 Recursos do Jogo
@@ -20,7 +22,7 @@
 ## 🛠️ Escopo de Produção
 
 ### Fase 1: Protótipo (1-2 meses)
-- Implementar controles básicos da nave.
+- Implementar controles básicos da nave usando Godot 4.3.
 - Criar mecânica de coleta de recursos em asteroides.
 - Desenvolver ciclo de calmaria e instabilidade cósmica.
 - Testar a jogabilidade principal.
@@ -67,10 +69,10 @@
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Motor de Jogo**: Unity / Unreal Engine
-- **Linguagens de Programação**: C# / C++
+- **Engine**: Godot 4.3
+- **Linguagens de Programação**: GDScript
 - **Ferramentas de Arte**: Blender, Photoshop, Substance Painter
-- **Sistema de Som**: FMOD ou Wwise
+- **Sistema de Som**: Godot Audio System ou integração com FMOD/Wwise
 
 ---
 
@@ -100,4 +102,8 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICEN
 
 ---
 
-**AstroDrift: Cosmic Instability** está em desenvolvimento ativo. Fique ligado para mais atualizações! 🚀
+## 🛠️ Configuração do Projeto no Godot 4.3
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/astrodrift.git
