@@ -1,7 +1,7 @@
 extends Node3D
 
 @export var quantidade_asteroides: int = 10
-@export var area_geracao: Vector3 = Vector3(50, 50, 50)
+@export var area_geracao: Vector3 = Vector3(50, 5, 50)
 @export var distancia_minima: float = 20.0
 @export var cena_asteroide: PackedScene
 
